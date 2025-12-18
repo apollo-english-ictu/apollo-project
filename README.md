@@ -1,7 +1,7 @@
 # apollo-project
 
 ## file word bài báo cáo
-[Google](https://www.google.com)
+[Google](https://docs.google.com/document/d/1KuVWycVHndkFnz98LT7cjLYg8RhDYochsW66pYINSNE/edit?usp=sharing)
 File Báo cáo dự án bằng đường link ở phần link bài báo cáo word - copy sang trình duyệt rồi sử dụng và chỉnh sửa
 
 # sơ đồ BPMN 

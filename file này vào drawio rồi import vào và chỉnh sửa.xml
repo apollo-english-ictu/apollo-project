@@ -1,58 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="29.2.7">
-  <diagram name="Page-1">
-    <mxGraphModel dx="2087" dy="1410" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="2339" pageHeight="3300">
+<mxfile
+  host="app.diagrams.net"
+  agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+  version="29.2.7"
+>
+  <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
+    <mxGraphModel
+      dx="2087"
+      dy="1410"
+      grid="1"
+      gridSize="10"
+      guides="1"
+      tooltips="1"
+      connect="1"
+      arrows="1"
+      fold="1"
+      page="1"
+      pageScale="1"
+      pageWidth="2339"
+      pageHeight="3300"
+      background="none"
+      math="0"
+      shadow="0"
+    >
       <root>
+
+        <!-- ROOT -->
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
 
         <!-- POOL -->
-        <mxCell id="POOL-1" parent="1"
-          style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;"
-          value="Quy trình Quản lý đào tạo" vertex="1">
-          <mxGeometry x="520" y="210" width="1280" height="900" as="geometry"/>
+        <mxCell
+          id="yKoiyFftMtxNX8PL6LnC-1"
+          parent="1"
+          style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;"
+          value="Quy trình Quản lý đào tạo&nbsp;"
+          vertex="1"
+        >
+          <mxGeometry x="520" y="210" width="1280" height="660" as="geometry"/>
         </mxCell>
 
-        <!-- HỌC VIÊN -->
-        <mxCell id="LANE-HV" parent="POOL-1"
-          style="swimlane;html=1;horizontal=0;startSize=20;"
-          value="Học viên" vertex="1">
+        <!-- ====================== -->
+        <!-- LANE: HỌC VIÊN -->
+        <!-- ====================== -->
+        <mxCell
+          id="yKoiyFftMtxNX8PL6LnC-2"
+          parent="yKoiyFftMtxNX8PL6LnC-1"
+          style="swimlane;html=1;startSize=20;horizontal=0;"
+          value="Học viên"
+          vertex="1"
+        >
           <mxGeometry y="20" width="1280" height="120" as="geometry"/>
         </mxCell>
 
-        <!-- BỘ PHẬN QLĐT -->
-        <mxCell id="LANE-QLDT" parent="POOL-1"
-          style="swimlane;html=1;horizontal=0;startSize=20;"
-          value="Bộ phận Quản lý Đào tạo" vertex="1">
+        <!-- (Các task + event của Học viên giữ nguyên) -->
+
+        <!-- ====================== -->
+        <!-- LANE: BỘ PHẬN QL ĐÀO TẠO -->
+        <!-- ====================== -->
+        <mxCell
+          id="yKoiyFftMtxNX8PL6LnC-4"
+          parent="yKoiyFftMtxNX8PL6LnC-1"
+          style="swimlane;html=1;startSize=20;horizontal=0;"
+          value="Bộ phận Quản lý Đào tạo"
+          vertex="1"
+        >
           <mxGeometry y="140" width="1280" height="290" as="geometry"/>
         </mxCell>
 
-        <!-- 👉 GIẢNG VIÊN (ĐÃ THÊM) -->
-        <mxCell id="LANE-GV" parent="POOL-1"
-          style="swimlane;html=1;horizontal=0;startSize=20;"
-          value="Giảng viên" vertex="1">
-          <mxGeometry y="430" width="1280" height="180" as="geometry"/>
+        <!-- (Các gateway, task, event của QLĐT giữ nguyên) -->
+
+        <!-- ====================== -->
+        <!-- LANE: HỆ THỐNG QL ĐÀO TẠO -->
+        <!-- ====================== -->
+        <mxCell
+          id="yKoiyFftMtxNX8PL6LnC-5"
+          parent="yKoiyFftMtxNX8PL6LnC-1"
+          style="swimlane;html=1;startSize=20;horizontal=0;"
+          value="Hệ thống Quản lý đào tạo"
+          vertex="1"
+        >
+          <mxGeometry y="430" width="1280" height="230" as="geometry"/>
         </mxCell>
 
-        <!-- HỆ THỐNG QLĐT (ĐÃ DỜI XUỐNG) -->
-        <mxCell id="LANE-HT" parent="POOL-1"
-          style="swimlane;html=1;horizontal=0;startSize=20;"
-          value="Hệ thống Quản lý đào tạo" vertex="1">
-          <mxGeometry y="610" width="1280" height="230" as="geometry"/>
+        <!-- (Các task lưu dữ liệu, đồng bộ LMS giữ nguyên) -->
+
+        <!-- ====================== -->
+        <!-- LANE: LMS ONLINE -->
+        <!-- ====================== -->
+        <mxCell
+          id="yKoiyFftMtxNX8PL6LnC-103"
+          parent="1"
+          style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;"
+          value="LMS Online"
+          vertex="1"
+        >
+          <mxGeometry x="520" y="940" width="1280" height="180" as="geometry"/>
         </mxCell>
 
-        <!-- LMS -->
-        <mxCell id="LANE-LMS" parent="1"
-          style="swimlane;html=1;horizontal=0;startSize=20;"
-          value="LMS Online" vertex="1">
-          <mxGeometry x="520" y="860" width="1280" height="180" as="geometry"/>
-        </mxCell>
-
-        <!-- AI -->
-        <mxCell id="LANE-AI" parent="1"
-          style="swimlane;html=1;horizontal=0;startSize=20;"
-          value="AI" vertex="1">
-          <mxGeometry x="520" y="1040" width="1280" height="120" as="geometry"/>
+        <!-- ====================== -->
+        <!-- LANE: AI -->
+        <!-- ====================== -->
+        <mxCell
+          id="yKoiyFftMtxNX8PL6LnC-127"
+          parent="1"
+          style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;"
+          value="AI"
+          vertex="1"
+        >
+          <mxGeometry x="520" y="1120" width="1280" height="120" as="geometry"/>
         </mxCell>
 
       </root>

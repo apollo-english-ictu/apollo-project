@@ -1,0 +1,10 @@
+1. Xác định được mục tiêu của dự án, và xác định được tính cấp thiết của dự án
+2. Xây dựng được quy trình nghiệp vụ theo chuẩn BPMN
+3. Phân tích hiểu được quy trình nghiệp vụ BPMN
+4. Xác định các yêu cầu nghiệp vụ cốt lõi cho hệ thống từ quy trình nghiệp vụ
+5. Xác định được một hoặc một số luật nghiệp vụ từ quy trình nghiệp vụ
+6. Xác định được đầy đủ các stakeholders của dự án 
+7. Lựa chọn được kỹ thuật thu thập yêu cầu phù hợp với từng đối tượng stakeholder
+8. Lập lịch biểu khảo sát và tiến hành khảo sát
+9. Phân tích xác định đầy đủ các yêu cầu dạng thô (needs, stakeholder's requests) từ kết quả khảo sát đã thu thập 
+10. Đảm bảo mội needs đều có nguồn gốc rõ ràng

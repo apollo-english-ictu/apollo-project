@@ -6,3 +6,4 @@ File Báo cáo dự án bằng đường link ở phần link bài báo cáo wor
 
 # sơ đồ BPMN 
 Để sử dụng file BPMN.xml -> phải tải xuống file -> vào web draw.io -> ấn vào 3 chấm góc trên bên phải -> import from -> device -> rồi chọn file vừa tải xuống sẽ hiển thị ra sơ đồ BPMN mình đã thiết kế 
+### [🔗 Link Prototype/Web Demo tại đây](https://modal-azul-86606408.figma.site/).
